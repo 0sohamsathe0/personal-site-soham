@@ -1,5 +1,5 @@
 h1 {
-  margin: 0px;
+  padding: 10px;
   text-align:center;
   font-family: 'Merienda', cursive;
   font-size: 90px;
@@ -30,27 +30,20 @@ body {
 }
 
 .first_img{
+  position: absolute;
+  left: 70px;
 
-  display: inline-block;
-  position: relative;
-  left: 16.875rem;
-  top: 11.25rem;
 }
 
 .second_img{
-  padding-top: 10px;
-  margin-top: 10px;
-  display: inline-block;
   position: absolute;
-  top:30px;
-  right:270px;
+  right: 70px;
 }
 
 .mountain{
   margin-top: 70px;
   margin-bottom: 50px;
-  position: relative;
-  left: 450px;
+
 }
 
 h2{
@@ -60,20 +53,15 @@ h2{
   margin-top: 20px;
 }
 
-.pfp{
-  width: 300px;
-  position:relative;
-  left: 600px;
-}
+
 
 .profile{
     background-color: #FEBF63;
 }
 
 .list1{
-  margin-left: 510px;
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding: 50px;
+  text-align: center;
   color: #51557E;
   font-size:30px;
 }
